@@ -1,0 +1,5 @@
+cache_file/
+*.djcache
+.vscode
+__pycache__/
+/MORE/MORE/settings.py
