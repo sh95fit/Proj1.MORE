@@ -3,3 +3,4 @@ cache_file/
 .vscode
 __pycache__/
 /MORE/MORE/settings.py
+venv/
