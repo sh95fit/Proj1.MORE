@@ -1,4 +1,4 @@
-p{% load static %}
+{% load static %}
 
 <!-- 기본 페이지 레이아웃 구조 -->
 
@@ -60,7 +60,7 @@ p{% load static %}
       class="navbar navbar-expand-lg navbar-dark bg-dark py-1 shadow-lg sticky-top"
     >
       <div class="container-xxl">
-        <a href="#" class="navbar-brand align-middle">
+        <a href="/sample" class="navbar-brand align-middle">
           <h3 class="m-0">
             <img
               src="static/images/logo/huns-logo.png"
@@ -548,19 +548,19 @@ p{% load static %}
             </div>
             <div class="col-md-3 mb-4 footer-2">
               <h4 class="mb-4">Footer 2</h4>
-              <ul>
-                <li>category 1</li>
-                <li>category 2</li>
-                <li>category 3</li>
+              <ul class="no_dot">
+                <li class="mb-3">category 1</li>
+                <li class="mb-3">category 2</li>
+                <li class="mb-3">category 3</li>
                 <li>category 4</li>
               </ul>
             </div>
             <div class="col-md-3 mb-4 footer-3">
               <h4 class="mb-4">Footer 3</h4>
-              <ul>
-                <li>category 1</li>
-                <li>category 2</li>
-                <li>category 3</li>
+              <ul class="no_dot">
+                <li class="mb-3">category 1</li>
+                <li class="mb-3">category 2</li>
+                <li class="mb-3">category 3</li>
                 <li>category 4</li>
               </ul>
             </div>
@@ -568,16 +568,18 @@ p{% load static %}
               <h4 class="mb-4">Our Infos</h4>
               <div class="info-body">
                 <p class="mb-2">
-                  <i class="fas fa-user"></i> DEVELOPER : KIM SE-HUN
-                </p>
-                <p class="mb-2">
-                  <i class="fas fa-marked-alt"></i> Address: Busan Gangseo Seoul Korea
+                  <i class="fas fa-user"></i> Developer : KIM SE-HUN
                 </p>
                 <p class="mb-2">
                   <i class="fas fa-phone-square-alt"></i> Tel : 010-1234-5678
                 </p>
                 <p class="mb-2">
-                  <i class="fas fa-hospital"></i> Registered Business Number : 111-11-11111
+                  <i class="fa-solid fa-pen"></i> Address 
+                  <br>: Busan Gangseo Seoul Korea
+                </p>
+                <p class="mb-2">
+                  <i class="fas fa-hospital"></i> Registered Business Number
+                  <br>: 111-11-11111
                 </p>
               </div>
               </div>
