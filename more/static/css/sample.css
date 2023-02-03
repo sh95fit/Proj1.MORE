@@ -55,6 +55,15 @@ header .navb-items {
     letter-spacing: 3px;
 }
 
+@media (max-width: 1400px) {
+    .item {
+        display: none;
+    }
+    .item-button {
+        display: none;
+    }
+}
+
 header .item {
     text-align: center;
     margin-inline: 15%;
@@ -74,7 +83,7 @@ header .item:hover {
 }
 
 header .item-button a {
-    background-color: #3879f0;
+    background-color: #102447;
     width: 150px;
     height: 45px;
     display: flex;
@@ -87,7 +96,7 @@ header .item-button a {
 }
 
 header .item-button a:hover {
-    background-color: #102447;
+    background-color: #3879f0;
 
 }
 
@@ -146,6 +155,11 @@ header .item-button a:hover {
 }
 
 .modal-body .modal-line{
+    /* a 태그 관련 */
+    font-size: 17px;
+    font-weight: 500;
+    letter-spacing: 2.5px;
+
     width: 100%;
     display: flex;
     align-items: center;
@@ -156,19 +170,13 @@ header .item-button a:hover {
     transition: all .5s ease;
     color : #82a4e2;
     border-bottom: 1px solid #82a4e2;
-
+    
 }
+
 
 .modal-body .modal-line:hover {
-    color: #fefefe;
-    border-bottom: 1px solid #fefefe;
-}
-
-.modal-line a {
-    font-size: 17px;
-    font-weight: 500;
-    letter-spacing: 2.5px;
-    color: #fefefe;
+    color: #102447;
+    border-bottom: 1px solid #102447;
 }
 
 .modal-line i {
